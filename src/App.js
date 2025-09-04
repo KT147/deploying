@@ -6,6 +6,10 @@ import HomePage from './pages/Home';
 import RootLayout from './pages/Root';
 import { lazy, Suspense } from 'react';
 
+
+// REACT WEBSITE IS A STATIC WEBSITE!
+// You don't execute server side code with React
+
 const BlogPage = lazy(() => import ('./pages/Blog'))
 const PostPage = lazy(() => import ('./pages/Post'))
 
